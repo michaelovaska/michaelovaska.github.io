@@ -1,0 +1,20 @@
+$light-grey: #bdbdbd;
+$dark-grey: #848484;
+$hover: #e5c100;
+
+$two-column-main: 580px;
+$three-column-main: 910px;
+
+$gutter: 20px;
+
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+  -moz-border-radius: $radius;
+  -ms-border-radius: $radius;
+  border-radius: $radius;
+}
+
+@mixin column-width($main-width, $gutter, $gutterNumber, $colNumber) {
+  width: ($main-width - ($gutterNumber * $gutter)) / $colNumber
+}
+

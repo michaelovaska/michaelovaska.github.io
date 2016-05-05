@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en-us">
+<head>
+	<meta charset="utf-8">
+	<title>Michael Ernest Ovaska</title>
+	<link rel="stylesheet" type="text/css" href="css/all.css">
+	<link href='http://fonts.googleapis.com/css?family=Bowlby+One|Raleway:800,100,900,400' rel='stylesheet' type='text/css'>
+<!-- 	<link href='http://fonts.googleapis.com/css?family=Maven+Pro:900,400|Kranky' rel='stylesheet' type='text/css'> -->
+
+
+</head>
+
+<body>
+
+	<header class ="columnOne">
+    <a href="infographics.html"><h1>Michael Ernest Ovaska</h1></a>  <!-- link this to the about page -->
+  		<p>Interactive and static information graphic designer and photo editor<p>
+
+  </header>
+
+  <section class="main-nav">
+  	<nav class ="columnOne fixedColumn lableNav ">
+
+  		    <ul><!-- 
+           --><li class= "tabNavigation infographicsSpacing"><h4 class="sectionFont">INFOGRAPHICS</h4></li><!-- 
+           --><li class = "tabNavigation photoEditsSpacing"><a href="photoedits.html"><h4>PHOTO EDITS</h4></a></li><!-- 
+           --><li class = "tabNavigation aboutMeSpacing"><a href="aboutme.html"><h4>CV</h4></a></li><!-- 
+           --><li class="tabNavigation drawingsSpacing"><a href="drawings-textiles.html"><h4>DRAWINGS/QUILTS</h4></a></li><!-- 
+         --></ul>
+  	</nav>
+
+  </section>
+
+  <section class="main">
+
+      <div class="columnOne fixedColumn"> 
+        <h3 class="subheadText">
+          As an information graphic designer, I research, conceive, design, edit and produce graphics for both breaking news and in-depth developing stories. For most of my career I've created static charts, but recently I've been coding and I have published a few interactive packages.
+        <h3>
+      </div>
+
+
+    <div id="handle" class="   columnOne fixedColumn">
+    </div>
+
+  </section>
+
+
+  	<footer class ="columnOne fixedColumn">
+  		<address>
+  				<a href="mailto:michaelovaska@gmail.com" class="email">michaelovaska@gmail.com</a>
+          <a href="http://twitter.com/ovaskaovaska" class="twitter">@ovaskaovaska</a>
+          <a href="https://uk.linkedin.com/in/michaelovaska" class="centerJustify">LinkedIn</a>
+
+          
+		</address>
+  	</footer>
+
+     <script id="example" type="text/x-handlebars-template">
+
+        <section>
+
+
+            {{#each interactives}}
+            <div class="mobileDisplay">
+                <a href="{{link}}">
+                  <img class="mobileDisplayImages" src="img/interactives/{{image}}" alt="{{alt}}">
+                </a>
+
+                <p class="caption">{{caption}}</p>
+
+              </div>
+
+            {{/each}}
+
+        </section>
+
+​ 
+        <section>
+
+          
+
+
+            {{#each infographics}}
+
+                  <img class="mobileDisplayImages" src="img/infographics/{{image}}" alt="{{alt}}">
+
+                <p class="caption">{{caption}}</p>
+
+            {{/each}}
+
+        </section
+
+​      </script>
+
+      <script src="js/handlebars.js"></script>
+      <script src="js/script.js"></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+
+
+
+</body>
+</html>

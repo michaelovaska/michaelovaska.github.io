@@ -1,0 +1,267 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+* {
+  margin: 0;
+  padding: 0;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+img {
+  margin-top: 50px; }
+
+/*mobile styles*/
+footer {
+  padding-bottom: 40px;
+  padding-top: 40px;
+  margin: 0 15px;
+  text-align: center;
+  font-size: .8em; }
+
+.columnOne {
+  margin: 0 15px;
+  text-align: center; }
+
+body {
+  font-size: 1em;
+  color: #848484;
+  font-family: "Raleway";
+  font-weight: 400; }
+
+header {
+  padding-bottom: 15px;
+  padding-top: 15px;
+  color: #848484;
+  border-bottom: thin solid #bdbdbd; }
+
+h1 {
+  font-family: "Bowlby One";
+  font-size: 3.5em;
+  margin-top: 35px;
+  color: #e5c100; }
+
+header p {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  font-size: 1.2em; }
+
+.subheadText {
+  margin-top: 30px;
+  margin-bottom: 25px;
+  font-weight: 400; }
+
+h3 {
+  font-size: 1.1em;
+  margin-bottom: 10px; }
+
+h4 {
+  font-weight: 800;
+  margin-top: 20px;
+  margin-bottom: 4px; }
+
+.resumeSectionHeader {
+  margin-top: 40px;
+  font-size: 1.5em; }
+
+.sectionFont {
+  color: #e5c100; }
+
+.title {
+  margin-top: 40px; }
+
+p {
+  margin-bottom: 10px; }
+
+.aboutMeImage {
+  width: 100%;
+  margin-bottom: 20px;
+  margin-top: 0px; }
+
+.cvHeader {
+  display: none; }
+
+.employmentSpacing {
+  margin-top: 25px; }
+
+.italic {
+  font-style: italic; }
+
+article {
+  width: 100%;
+  margin-bottom: 20px; }
+
+a {
+  text-decoration: none;
+  color: #848484; }
+
+a:hover {
+  color: #e5c100; }
+
+.DesktopDisplay {
+  display: none; }
+
+.mobileDisplay {
+  display: block; }
+
+.tabletDisplay {
+  display: none; }
+
+.mobileDisplayImages {
+  width: 100%; }
+
+.mobileDisplay:hover {
+  color: #e5c100; }
+
+.email {
+  float: left; }
+
+.twitter {
+  float: right; }
+
+address {
+  margin-bottom: 15px;
+  font-size: .8em; }
+
+@media (min-width: 710px) {
+  h1 {
+    font-size: 3em; }
+
+  .fixedColumn {
+    width: 710px;
+    margin: 0 auto; } }
+.tabNavigation {
+  display: inline-block;
+  text-align: center;
+  font-size: .4em; }
+
+.drawingsSpacing {
+  width: 37.5%; }
+
+.infographicsSpacing {
+  width: 30%; }
+
+.photoEditsSpacing {
+  width: 27.5%; }
+
+.aboutMeSpacing {
+  width: 5%; }
+
+.lableNav {
+  margin-bottom: 15px;
+  margin-top: 15px; }
+
+.sticky {
+  position: fixed;
+  width: 100%;
+  left: 0;
+  top: 0;
+  z-index: 100;
+  border-top: 0; }
+
+.caption {
+  margin: 10px 0 50px; }
+
+.leftJustify {
+  text-align: left; }
+
+.centerJustify {
+  text-align: center; }
+
+.aboutMeText {
+  color: #848484; }
+
+@media (min-width: 305px) {
+  .tabNavigation {
+    font-size: .6em; } }
+@media (min-width: 320px) {
+  footer {
+    font-size: .9em; } }
+@media (min-width: 350px) {
+  .tabNavigation {
+    font-size: .7em; }
+
+  footer {
+    font-size: 1em; } }
+@media (min-width: 445px) {
+  .tabNavigation {
+    font-size: .8em; }
+
+  address {
+    font-size: 1em; } }
+@media (min-width: 500px) {
+  .tabNavigation {
+    font-size: 1em; } }
+@media (min-width: 650px) {
+  .mobileDisplayNavs {
+    display: none; }
+
+  .tabletDisplay {
+    display: block;
+    margin-top: 100px;
+    margin-bottom: 100 px; }
+
+  .tabletGroups {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 5%;
+    margin-top: 5%; }
+
+  .tabletGroups a {
+    margin-right: 5%;
+    margin-left: 5%; }
+
+  .aboutMeImage {
+    width: 145px;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 0px; }
+
+  .cvHeader {
+    display: block; } }
+
+/*# sourceMappingURL=all.css.map */

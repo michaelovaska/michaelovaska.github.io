@@ -1,0 +1,197 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+* {
+  margin: 0;
+  padding: 0;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+/*mobile styles*/
+footer {
+  padding-bottom: 30px; }
+
+.columnOne {
+  margin: 0 15px;
+  text-align: center; }
+
+body {
+  font-size: 1em;
+  color: #bdbdbd;
+  font-family: "Raleway";
+  font-weight: 400; }
+
+header {
+  color: #bdbdbd;
+  border-bottom: thin solid #d3d3d3; }
+
+h1 {
+  font-family: "Bowlby One";
+  font-size: 3.5em;
+  margin-top: 25px; }
+
+header p {
+  margin-top: 15px;
+  margin-bottom: 15px; }
+
+h4 {
+  font-weight: 800;
+  margin-top: 20px;
+  margin-bottom: 4px; }
+
+.resumeSectionHeader {
+  margin-top: 40px;
+  font-size: 1.5em; }
+
+.sectionFont {
+  color: #e5c100; }
+
+.title {
+  margin-top: 40px; }
+
+.spacing {
+  margin-bottom: 10px; }
+
+.italic {
+  font-style: italic; }
+
+article {
+  width: 100%;
+  margin-bottom: 20px; }
+
+a {
+  text-decoration: none;
+  color: #bdbdbd; }
+
+a:hover {
+  color: #e5c100; }
+
+.mobileDisplayImages {
+  width: 100%; }
+
+.mobileDisplay:hover {
+  color: #e5c100; }
+
+.email {
+  float: left; }
+
+.twitter {
+  float: right; }
+
+address {
+  margin-bottom: 15px;
+  font-size: .8em; }
+
+@media (min-width: 710px) {
+  h1 {
+    font-size: 3em; }
+
+  .fixedColumn {
+    width: 710px;
+    margin: 0 auto; } }
+li {
+  display: inline-block;
+  text-align: center;
+  font-size: .4em; }
+
+.interactivesSpacing {
+  width: 27%; }
+
+.infographicsSpacing {
+  width: 27.5%; }
+
+.photoEditsSpacing {
+  width: 25.5%; }
+
+.aboutMeSpacing {
+  width: 19%; }
+
+.lableNav, h4 {
+  margin-bottom: 15px; }
+
+.sticky {
+  position: fixed;
+  width: 100%;
+  left: 0;
+  top: 0;
+  z-index: 100;
+  border-top: 0; }
+
+.caption {
+  margin: 10px 0 50px; }
+
+.leftJustify {
+  text-align: left;
+  color: red; }
+
+.centerJustify {
+  text-align: center; }
+
+.aboutMeText {
+  color: red; }
+
+@media (min-width: 305px) {
+  li {
+    font-size: .6em; } }
+@media (min-width: 350px) {
+  li {
+    font-size: .7em; } }
+@media (min-width: 360px) {
+  address {
+    font-size: 1em; } }
+@media (min-width: 400px) {
+  li {
+    font-size: .8em; } }
+@media (min-width: 445px) {
+  li {
+    font-size: .8em; } }
+@media (min-width: 500px) {
+  li {
+    font-size: 1em; } }
+
+/*# sourceMappingURL=style.css.map */

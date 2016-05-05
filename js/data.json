@@ -1,0 +1,11 @@
+{
+    item: [{
+"ThumbImageInteractive": "interactivesImage",
+"caption": "dummy caption goes here and here and here"
+},
+
+{
+"ThumbImageInteractive": "infographicsImage",
+"caption": "dummy caption goes here and here and here"
+}]
+};
