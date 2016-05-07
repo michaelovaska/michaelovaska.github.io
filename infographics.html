@@ -14,7 +14,7 @@
 
 	<header class ="columnOne">
     <a href="infographics.html"><h1>Michael Ernest Ovaska</h1></a>  <!-- link this to the about page -->
-  		<p>Interactive and static information graphic designer and photo editor<p>
+  		<p>Information graphic designer<p>
 
   </header>
 
@@ -33,13 +33,6 @@
 
   <section class="main">
 
-      <div class="columnOne fixedColumn"> 
-        <h3 class="subheadText">
-          As an information graphic designer, I research, conceive, design, edit and produce graphics for both breaking news and in-depth developing stories. For most of my career I've created static charts, but recently I've been coding and I have published a few interactive packages.
-        <h3>
-      </div>
-
-
     <div id="handle" class="   columnOne fixedColumn">
     </div>
 
@@ -50,55 +43,38 @@
   		<address>
   				<a href="mailto:michaelovaska@gmail.com" class="email">michaelovaska@gmail.com</a>
           <a href="http://twitter.com/ovaskaovaska" class="twitter">@ovaskaovaska</a>
-          <a href="https://uk.linkedin.com/in/michaelovaska" class="centerJustify">LinkedIn</a>
-
-          
-		</address>
+          <a href="https://uk.linkedin.com/in/michaelovaska" class="centerJustify">LinkedIn</a>   
+		  </address>
   	</footer>
 
      <script id="example" type="text/x-handlebars-template">
 
         <section>
-
-
             {{#each interactives}}
-            <div class="mobileDisplay">
-                <a href="{{link}}">
-                  <img class="mobileDisplayImages" src="img/interactives/{{image}}" alt="{{alt}}">
-                </a>
-
-                <p class="caption">{{caption}}</p>
-
+              <div class="mobileDisplay">
+                  <h3 class="subheadText">{{subhead}}</h3>
+                  <a href="{{link}}">
+                    <img class="mobileDisplayImages" src="img/interactives/{{image}}" alt="{{alt}}">
+                  </a>
+                  <p class="caption">{{caption}}</p>
               </div>
-
             {{/each}}
-
         </section>
 
-​ 
         <section>
-
-          
-
-
-            {{#each infographics}}
-
+            <div class="mobileDisplay">
+              {{#each infographics}}
                   <img class="mobileDisplayImages" src="img/infographics/{{image}}" alt="{{alt}}">
-
-                <p class="caption">{{caption}}</p>
-
-            {{/each}}
-
-        </section
+                  <p class="caption">{{caption}}</p>
+              {{/each}}
+            </div>
+        </section>
 
 ​      </script>
 
       <script src="js/handlebars.js"></script>
       <script src="js/script.js"></script>
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-
-
-
 
 </body>
 </html>

@@ -13,78 +13,50 @@
 <body>
 
 	<header class ="columnOne">
-    <a href="infographics.html"><h1>Michael Ernest Ovaska</h1></a>  <!-- link this to the about page -->
-  		<p>Interactive and static information graphic designer and photo editor<p>
-<!--   			<ul>
-  				<li>Interactives</li>
-  				<li>Infographics</li>
-  				<li>Photo edits</li>
-  				<li>Resume</li>
-  			</ul> -->
-  	</header>
+    <a href="infogrpahics.html"><h1>Michael Ernest Ovaska</h1></a> 
+  	<p>Information graphic designer<p>
+  </header>
 
   	<nav class ="columnOne fixedColumn lableNav">
-
         <ul><!-- 
            --><li class= "tabNavigation infographicsSpacing"><a href="infographics.html"><h4>INFOGRAPHICS</h4></a></li><!-- 
            --><li class = "tabNavigation photoEditsSpacing"><h4 class="sectionFont">PHOTO EDITS</h4></li><!-- 
            --><li class = "tabNavigation aboutMeSpacing"><a href="aboutme.html"><h4>CV</h4></a></li><!-- 
            --><li class="tabNavigation drawingsSpacing"><a href="drawings-textiles.html"><h4>DRAWINGS/QUILTS</h4></a></li><!-- 
          --></ul>
-
-
   	</nav>
 
-    <div class="columnOne fixedColumn"> 
-      <h3 class="subheadText">As a photo editor for The Wall Street Journal's European content I've currated narratives from commissioned photos, searched live photo wires for front-page photos and edited news photo to reflect branding in our London headquarters.<h3>
-    </div>
-
-    <div id="handle" class="mobileDisplay columnOne fixedColumn">
-
-
-        
-
-    </div>
-
+    <div id="handle" class="mobileDisplay columnOne fixedColumn"></div>
 
   	<footer class ="columnOne fixedColumn">
   		<address>
   				<a href="mailto:michaelovaska@gmail.com" class="email">michaelovaska@gmail.com</a>
           <a href="http://twitter.com/ovaskaovaska" class="twitter">@ovaskaovaska</a>
           <a href="https://uk.linkedin.com/in/michaelovaska" class="centerJustify">LinkedIn</a>
-		</address>
+		  </address>
   	</footer>
 
 
         <script id="example" type="text/x-handlebars-template">
 
             {{#each photoLinks}}
-
               <a href="{{link}}">
-
+                  <h3 class="subheadText">{{subhead}}</h3>
                   <img class="mobileDisplayImages" src="img/photos/{{image}}" alt="{{alt}}">
-
+                  <p class="caption">{{caption}}</p>
               </a>
-
-                <p class="caption">{{caption}}</p>
-
             {{/each}}
 
             {{#each photoStatics}}
-
+                  <h3 class="subheadText">{{subhead}}</h3>
                   <img class="mobileDisplayImages" src="img/photos/{{image}}" alt="{{alt}}">
-
-                <p class="caption">{{caption}}</p>
-
+                  <p class="caption">{{caption}}</p>
             {{/each}}
 
 ​        </script>
 
         <script src="js/handlebars.js"></script>
         <script src="js/script.js"></script>
-
-
-
 
 </body>
 </html>
