@@ -4,22 +4,25 @@
 	<meta charset="utf-8">
 	<title>Michael Ernest Ovaska</title>
 	<link rel="stylesheet" type="text/css" href="css/all.css">
+  <link rel="stylesheet" type="text/css" href="css/grid12.css">
 	<link href='http://fonts.googleapis.com/css?family=Bowlby+One|Raleway:800,100,900,400' rel='stylesheet' type='text/css'>
 <!-- 	<link href='http://fonts.googleapis.com/css?family=Maven+Pro:900,400|Kranky' rel='stylesheet' type='text/css'> -->
+
+
 
 
 </head>
 
 <body>
 
-	<header class ="columnOne">
+	<header class ="col-sm-8 col-sm-offset-2 centerJustify">
     <a href="infographics.html"><h1>Michael Ernest Ovaska</h1></a>  <!-- link this to the about page -->
   		<p>Information graphic designer<p>
 
   </header>
 
-  <section class="main-nav">
-  	<nav class ="columnOne fixedColumn lableNav ">
+
+  	<nav class ="col-sm-12 col-sm-offset-0 col-md-8 col-md-offset-2 lableNav">
 
   		    <ul><!-- 
            --><li class= "tabNavigation infographicsSpacing"><h4 class="sectionFont">INFOGRAPHICS</h4></li><!-- 
@@ -29,17 +32,13 @@
          --></ul>
   	</nav>
 
-  </section>
+ 
 
-  <section class="main">
-
-    <div id="handle" class="   columnOne fixedColumn">
-    </div>
-
-  </section>
+    <div id="handle" class="col-sm-12 col-sm-offset-0 col-md-8 col-md-offset-2"></div>
 
 
-  	<footer class ="columnOne fixedColumn">
+
+  	<footer class ="col-sm-12 col-sm-offset-0 col-md-10 col-md-offset-1">
   		<address>
   				<a href="mailto:michaelovaska@gmail.com" class="email">michaelovaska@gmail.com</a>
           <a href="http://twitter.com/ovaskaovaska" class="twitter">@ovaskaovaska</a>
@@ -52,7 +51,7 @@
         <section>
             {{#each interactives}}
               <div class="mobileDisplay">
-                  <h3 class="subheadText">{{subhead}}</h3>
+                  <p class="subheadText">{{subhead}}</p>
                   <a href="{{link}}">
                     <img class="mobileDisplayImages" src="img/interactives/{{image}}" alt="{{alt}}">
                   </a>

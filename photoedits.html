@@ -4,20 +4,24 @@
 	<meta charset="utf-8">
 	<title>Michael Ernest Ovaska</title>
 	<link rel="stylesheet" type="text/css" href="css/all.css">
+  <link rel="stylesheet" type="text/css" href="css/grid12.css">
+  
 	<link href='http://fonts.googleapis.com/css?family=Bowlby+One|Raleway:800,100,900,400' rel='stylesheet' type='text/css'>
 <!-- 	<link href='http://fonts.googleapis.com/css?family=Maven+Pro:900,400|Kranky' rel='stylesheet' type='text/css'> -->
+
+
 
 
 </head>
 
 <body>
 
-	<header class ="columnOne">
+	<header class ="col-sm-8 col-sm-offset-2 centerJustify">
     <a href="infogrpahics.html"><h1>Michael Ernest Ovaska</h1></a> 
   	<p>Information graphic designer<p>
   </header>
 
-  	<nav class ="columnOne fixedColumn lableNav">
+  	<nav class ="col-sm-12 col-sm-offset-0 col-md-8 col-md-offset-2 lableNav">
         <ul><!-- 
            --><li class= "tabNavigation infographicsSpacing"><a href="infographics.html"><h4>INFOGRAPHICS</h4></a></li><!-- 
            --><li class = "tabNavigation photoEditsSpacing"><h4 class="sectionFont">PHOTO EDITS</h4></li><!-- 
@@ -26,9 +30,9 @@
          --></ul>
   	</nav>
 
-    <div id="handle" class="mobileDisplay columnOne fixedColumn"></div>
+    <div id="handle" class="col-sm-12 col-sm-offset-0 col-md-8 col-md-offset-2"></div>
 
-  	<footer class ="columnOne fixedColumn">
+  	<footer class ="col-sm-12 col-sm-offset-0 col-md-10 col-md-offset-1">
   		<address>
   				<a href="mailto:michaelovaska@gmail.com" class="email">michaelovaska@gmail.com</a>
           <a href="http://twitter.com/ovaskaovaska" class="twitter">@ovaskaovaska</a>
@@ -41,14 +45,14 @@
 
             {{#each photoLinks}}
               <a href="{{link}}">
-                  <h3 class="subheadText">{{subhead}}</h3>
+                  <p class="subheadText">{{subhead}}</p>
                   <img class="mobileDisplayImages" src="img/photos/{{image}}" alt="{{alt}}">
                   <p class="caption">{{caption}}</p>
               </a>
             {{/each}}
 
             {{#each photoStatics}}
-                  <h3 class="subheadText">{{subhead}}</h3>
+                  <p class="subheadText">{{subhead}}</p>
                   <img class="mobileDisplayImages" src="img/photos/{{image}}" alt="{{alt}}">
                   <p class="caption">{{caption}}</p>
             {{/each}}

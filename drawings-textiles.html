@@ -4,20 +4,23 @@
   <meta charset="utf-8">
   <title>Michael Ernest Ovaska</title>
   <link rel="stylesheet" type="text/css" href="css/all.css">
+  <link rel="stylesheet" type="text/css" href="css/grid12.css">
   <link href='http://fonts.googleapis.com/css?family=Bowlby+One|Raleway:800,100,900,400' rel='stylesheet' type='text/css'>
 <!--  <link href='http://fonts.googleapis.com/css?family=Maven+Pro:900,400|Kranky' rel='stylesheet' type='text/css'> -->
+
+
 
 
 </head>
 
 <body>
 
-  <header class ="columnOne">
+  <header class ="col-sm-8 col-sm-offset-2 centerJustify">
     <a href="infographics.html"><h1>Michael Ernest Ovaska</h1></a>
     <p>Information graphic designer<p>
   </header>
 
-    <nav class ="columnOne fixedColumn lableNav main-nav">
+    <nav class ="col-sm-12 col-sm-offset-0 col-md-8 col-md-offset-2 lableNav">
        <ul><!-- 
            --><li class= "tabNavigation infographicsSpacing"><a href="infographics.html"><h4>INFOGRAPHICS</h4></a></li><!-- 
            --><li class = "tabNavigation photoEditsSpacing"><a href="photoedits.html"><h4>PHOTO EDITS</h4></a></li><!-- 
@@ -26,13 +29,11 @@
          --></ul>
     </nav>
 
-    <div class="columnOne fixedColumn"> 
-      <h3 class="subheadText">Away from the computer, I enjoy making things with my hand—drawings, crocheting and, more recently, quilting. <h3>
+    <div id="handle" class="col-sm-12 col-sm-offset-0 col-md-8 col-md-offset-2">
+
     </div>
 
-    <div id="handle" class="mobileDisplay columnOne fixedColumn"></div>
-
-    <footer class ="columnOne fixedColumn">
+    <footer class ="col-sm-12 col-sm-offset-0 col-md-10 col-md-offset-1">
       <address>
           <a href="mailto:michaelovaska@gmail.com" class="email">michaelovaska@gmail.com</a>
           <a href="http://twitter.com/ovaskaovaska" class="twitter">@ovaskaovaska</a>
@@ -41,7 +42,8 @@
     </footer>
 
         <script id="example" type="text/x-handlebars-template">
-
+            <p class="subheadText">Away from the computer, I enjoy making things with my hand—drawings, crocheting and, more recently, quilting. 
+            </p>
             {{#each drawingsTextiles}}
                 <img class="mobileDisplayImages" src="img/drawingsTextiles/{{image}}" alt="{{alt}}">
                 <p class="caption">{{caption}}</p>

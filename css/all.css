@@ -53,16 +53,15 @@ table {
   box-sizing: border-box; }
 
 /*mobile styles*/
+.spacing {
+  margin-top: 20px; }
+
 footer {
   padding-bottom: 40px;
   padding-top: 40px;
   margin: 0 15px;
   text-align: center;
   font-size: .8em; }
-
-.columnOne {
-  margin: 0 15px;
-  text-align: center; }
 
 body {
   font-size: 1em;
@@ -76,10 +75,12 @@ header {
   color: #848484;
   border-bottom: thin solid #bdbdbd; }
 
+a h1 {
+  margin-top: 50px; }
+
 h1 {
   font-family: "Bowlby One";
-  font-size: 3em;
-  margin-top: 35px;
+  font-size: 2.70em;
   color: #e5c100; }
 
 header p {
@@ -88,12 +89,12 @@ header p {
   font-size: 1.2em; }
 
 .subheadText {
-  margin-top: 75px;
+  margin-top: 45px;
   margin-bottom: 25px;
   font-weight: 400; }
 
 h3 {
-  font-size: 1.1em;
+  font-size: 1.25em;
   margin-bottom: 10px; }
 
 h4 {
@@ -102,7 +103,6 @@ h4 {
   margin-bottom: 4px; }
 
 .resumeSectionHeader {
-  margin-top: 40px;
   font-size: 1.5em; }
 
 .sectionFont {
@@ -115,9 +115,7 @@ p {
   margin-bottom: 10px; }
 
 .aboutMeImage {
-  width: 100%;
-  margin-bottom: 20px;
-  margin-top: 0px; }
+  width: 100%; }
 
 .cvHeader {
   display: none; }
@@ -164,13 +162,6 @@ address {
   margin-bottom: 15px;
   font-size: .8em; }
 
-@media (min-width: 710px) {
-  h1 {
-    font-size: 3em; }
-
-  .fixedColumn {
-    width: 710px;
-    margin: 0 auto; } }
 .tabNavigation {
   display: inline-block;
   text-align: center;
@@ -234,14 +225,6 @@ address {
   .tabNavigation {
     font-size: 1em; } }
 @media (min-width: 650px) {
-  .mobileDisplayNavs {
-    display: none; }
-
-  .tabletDisplay {
-    display: block;
-    margin-top: 100px;
-    margin-bottom: 100 px; }
-
   .tabletGroups {
     width: 100%;
     text-align: center;
@@ -252,11 +235,11 @@ address {
     margin-right: 5%;
     margin-left: 5%; }
 
-  .aboutMeImage {
-    width: 145px;
-    float: left;
-    margin-right: 20px;
-    margin-bottom: 0px; }
+  .col-md-3, .col-md-12 {
+    padding: 0 !important; }
+
+  .aboutMeIntro {
+    margin-top: 40px !important; }
 
   .cvHeader {
     display: block; } }
