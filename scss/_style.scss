@@ -9,6 +9,21 @@
 
 /*mobile styles*/
 
+.center {
+  text-align: center;
+  padding: 0px !important;
+}
+
+.right {
+  text-align: right;
+  padding: 0px !important;
+}
+
+.left {
+  text-align: left;
+  padding: 0px !important;
+}
+
 .spacing {
   margin-top: 20px;
 }
@@ -18,12 +33,14 @@ footer {
   padding-top: 40px;
   margin: 0 15px;
   text-align: center; 
-  font-size: .8em;
+  font-size: 8px;
 }
 
+p {
+  font-size: 12px;
+}
 
 body {
-  font-size: 1em;
   color: $dark-grey;
   font-family:"Raleway";
   font-weight: 400;
@@ -35,6 +52,7 @@ header {
   padding-top: 15px;
   color: $dark-grey;
   border-bottom: thin solid $light-grey;
+  text-align: center;
 }
 
 a h1 {
@@ -43,14 +61,14 @@ a h1 {
 
 h1 {
   font-family: "Bowlby One";
-  font-size: 2.70em;
+  font-size: 50px;
   color: $hover;
 }
 
  header p  {
   margin-top: 10px;
   margin-bottom: 20px;
-  font-size: 1.2em;
+  font-size: 18px;
 }
 
 
@@ -61,18 +79,18 @@ h1 {
 }
 
 h3 {
-  font-size: 1.25em;
+  font-size: 17px;
   margin-bottom: 10px;
 }
 
 h4 {
-  font-weight: 800;
+  font-weight: 8px;
   margin-top: 20px;
   margin-bottom: 4px;
 }
 
 .resumeSectionHeader {
-  font-size: 1.5em;
+  font-size: 20px;
 }
 
 .sectionFont {
@@ -155,7 +173,7 @@ a:hover {
 
 address {
   margin-bottom: 15px;
-  font-size: .8em;
+  font-size: 10px;
 }
 
 @media (min-width: 710px) {
@@ -166,7 +184,7 @@ address {
 .tabNavigation{
   display: inline-block;
   text-align: center;
-  font-size: .4em;
+  font-size: 8px;
 }
 
 .drawingsSpacing {
@@ -207,9 +225,6 @@ address {
   text-align: left;
 }
 
-.centerJustify {
-  text-align: center;
-}
 
 .aboutMeText {
   color: #848484;
@@ -217,22 +232,23 @@ address {
 
 @media (min-width: 305px) {
   .tabNavigation{
-    font-size: .6em;
+    font-size: 9.5px;
   }
 }
 
 @media (min-width: 320px) {
   footer {
-    font-size: .9em;  }
+    font-size: 12px;  }
 }
 
 @media (min-width: 350px) {
+  
   .tabNavigation{
-    font-size: .7em;
+    font-size: 10px;
   }
 
   footer {
-    font-size: 1em;
+    font-size: 14px;
   }
 }
 
@@ -243,22 +259,28 @@ address {
 
 @media (min-width: 445px) {
   .tabNavigation{
-    font-size: .8em;
+    font-size:12px;
+  }
+
+  p {
+    font-size: 14px;
   }
 
   address {
-    font-size: 1em;
+    font-size: 12px;
   }
 }
 
 @media (min-width: 500px) {
   .tabNavigation{
-    font-size: 1em;
+    font-size: 14px;
   }
 }
 
 @media (min-width: 650px) {
-
+  p {
+    font-size: 16px;
+  }
 
   .tabletGroups {
     width: 100%;
